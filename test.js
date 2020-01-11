@@ -17,11 +17,11 @@ function changeColor () {
 
 }
 
-let btnMagic = document.querySelector('#btn_modal');
-let btnMagic2 = document.querySelector('#btn_modal2');
+let btnModal = document.querySelector('#btn_modal');
+let btnModal2 = document.querySelector('#btn_modal2');
 
-btnMagic.onclick = showModal;
-btnMagic2.onclick = hideModal;
+btnModal.onclick = showModal;
+btnModal2.onclick = hideModal;
 
 function showModal () {
     let modal = document.querySelector('.modal_hidden').style.display = 'flex';
